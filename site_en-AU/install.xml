@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.2" client="site" type="language" method="upgrade">
-	<name>English (Australia)</name>
+<extension version="3.8" client="site" type="language" method="upgrade">
+	<name>English (en-AU)</name>
 	<tag>en-AU</tag>
-	<version>3.2.3.1</version>
-	<creationDate>2014-2-20</creationDate>
-	<author>Aussiesrus - Australia</author>
-	<authorEmail>admin@aussiesrus.com.au</authorEmail>
-	<authorUrl>www.aussiesrus.com.au</authorUrl>
-	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<version>3.8.3.1</version>
+	<creationDate>December 2017</creationDate>
+	<author>Stevec4</author>
+	<authorEmail>stevec4@comcast.net</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>en-AU site language</description>
 	<files>
-		<filename>index.html</filename>
+		<filename>en-AU.ini</filename>
 		<filename>en-AU.com_ajax.ini</filename>
 		<filename>en-AU.com_config.ini</filename>
 		<filename>en-AU.com_contact.ini</filename>
@@ -28,16 +28,14 @@
 		<filename>en-AU.com_wrapper.ini</filename>
 		<filename>en-AU.files_joomla.sys.ini</filename>
 		<filename>en-AU.finder_cli.ini</filename>
-		<filename>en-AU.ini</filename>
+		<filename>en-AU.lib_fof.ini</filename>
 		<filename>en-AU.lib_fof.sys.ini</filename>
 		<filename>en-AU.lib_idna_convert.sys.ini</filename>
 		<filename>en-AU.lib_joomla.ini</filename>
 		<filename>en-AU.lib_joomla.sys.ini</filename>
 		<filename>en-AU.lib_phpass.sys.ini</filename>
-		<filename>en-AU.lib_phpmailer.sys.ini</filename>
 		<filename>en-AU.lib_phputf8.sys.ini</filename>
 		<filename>en-AU.lib_simplepie.sys.ini</filename>
-		<filename>en-AU.localise.php</filename>
 		<filename>en-AU.mod_articles_archive.ini</filename>
 		<filename>en-AU.mod_articles_archive.sys.ini</filename>
 		<filename>en-AU.mod_articles_categories.ini</filename>
@@ -94,8 +92,10 @@
 		<filename>en-AU.tpl_beez3.sys.ini</filename>
 		<filename>en-AU.tpl_protostar.ini</filename>
 		<filename>en-AU.tpl_protostar.sys.ini</filename>
-		<filename file="meta">en-AU.xml</filename>
+		<filename>en-AU.localise.php</filename>
 		<filename file="meta">install.xml</filename>
+		<filename file="meta">en-AU.xml</filename>
+		<filename>index.html</filename>
 	</files>
 	<params />
 </extension>
